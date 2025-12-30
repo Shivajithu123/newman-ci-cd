@@ -17,4 +17,4 @@ jobs:
         run: npm install -g newman
 
       - name: Run API Tests
-        run: newman run collection.json -d users.csv
+        run: newman run DDT_Lab.json -d users.csv
